@@ -1,0 +1,132 @@
+.login-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  backdrop-filter: blur(3px);
+}
+
+/* Khung chính */
+.login-popup-container {
+  background: linear-gradient(145deg, #fff8f2, #fff0e6);
+  border: 2px solid #ff8855;
+  border-radius: 16px;
+  width: 380px;
+  padding: 35px 30px;
+  box-shadow: 0 8px 30px rgba(255, 100, 50, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  animation: fadeIn 0.25s ease;
+  font-family: "Poppins", sans-serif;
+  color: #522d1a;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Tiêu đề + icon tắt */
+.login-popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ff5722;
+  font-weight: 600;
+}
+
+.login-popup-title img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.login-popup-title img:hover {
+  transform: rotate(90deg);
+}
+
+/* Input */
+.login-popup-inpust {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-popup-inpust input {
+  padding: 12px 14px;
+  border: 1.5px solid #ff9966;
+  border-radius: 8px;
+  background-color: #fffaf5;
+  outline: none;
+  font-size: 15px;
+  transition: 0.25s;
+}
+
+.login-popup-inpust input:focus {
+  border-color: #ff7043;
+  box-shadow: 0 0 6px rgba(255, 120, 60, 0.3);
+}
+
+/* Nút chính */
+.login-popup-container button {
+  margin-top: 10px;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.login-popup-container button:hover {
+  background-color: #ff6347;
+  transform: translateY(-1px);
+}
+
+/* Điều khoản */
+.login-popup-condition {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #6d3d26;
+}
+
+.login-popup-condition input {
+  margin-top: 3px;
+}
+
+/* Link chuyển trạng thái */
+.login-popup-container p {
+  font-size: 14px;
+  text-align: center;
+  color: #5c2f1f;
+}
+
+.login-popup-container span {
+  color: #ff5722;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-popup-container span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+.app-download {
+  margin: 100px auto 60px auto;
+  padding: 60px 10%;
+  background: linear-gradient(90deg, #ff7b54, #ff9472);
+  border-radius: 20px;
+  color: #fffaf0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 8px 25px rgba(255, 120, 80, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-download:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(255, 120, 80, 0.3);
+}
+
+/* --- Tiêu đề chính --- */
+.app-download p {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 3px rgba(120, 40, 20, 0.3);
+}
+
+/* --- Khối chứa icon --- */
+.app-download-platforms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.app-download-platforms img {
+  width: 180px;
+  height: auto;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.app-download-platforms img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.25);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .app-download {
+    padding: 40px 5%;
+  }
+
+  .app-download p {
+    font-size: 22px;
+  }
+
+  .app-download-platforms {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .app-download-platforms img {
+    width: 160px;
+  }
+}

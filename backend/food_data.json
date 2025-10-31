@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Salad Hy Lạp",
+    "image": "food_1.png",
+    "price": 12000,
+    "description": "Món salad tươi mát với phô mai Feta, cà chua, dưa leo và oliu đặc trưng vùng Địa Trung Hải.",
+    "category": "Salad"
+  },
+  {
+    "name": "Salad Rau Củ",
+    "image": "food_2.png",
+    "price": 18000,
+    "description": "Sự kết hợp của nhiều loại rau củ tươi, mang lại cảm giác thanh mát và tràn đầy năng lượng.",
+    "category": "Salad"
+  },
+  {
+    "name": "Salad Cỏ Ba Lá",
+    "image": "food_3.png",
+    "price": 16000,
+    "description": "Salad xanh với nước sốt đặc biệt, tạo hương vị nhẹ nhàng nhưng đầy tinh tế.",
+    "category": "Salad"
+  },
+  {
+    "name": "Salad Gà",
+    "image": "food_4.png",
+    "price": 24000,
+    "description": "Thịt gà nướng mềm kết hợp rau củ tươi và nước sốt chua nhẹ – lựa chọn cân bằng và ngon miệng.",
+    "category": "Salad"
+  },
+  {
+    "name": "Cuộn Lasagna",
+    "image": "food_5.png",
+    "price": 19000,
+    "description": "Lasagna cuộn mềm mịn, phủ sốt kem phô mai béo ngậy, mang đậm phong vị Ý.",
+    "category": "Cuốn"
+  },
+  {
+    "name": "Cuộn Peri Peri",
+    "image": "food_6.png",
+    "price": 12000,
+    "description": "Món cuộn cay nồng Peri Peri hấp dẫn – sự kết hợp giữa ẩm thực châu Âu và châu Phi.",
+    "category": "Cuốn"
+  },
+  {
+    "name": "Cuộn Gà",
+    "image": "food_7.png",
+    "price": 20000,
+    "description": "Gà nướng thơm lừng cuộn cùng rau tươi và nước sốt đặc biệt, tiện lợi mà vẫn đậm vị.",
+    "category": "Cuốn"
+  },
+  {
+    "name": "Cuộn Rau",
+    "image": "food_8.png",
+    "price": 15000,
+    "description": "Món cuộn thanh đạm, đầy rau củ tươi ngon, thích hợp cho người ăn chay.",
+    "category": "Cuốn"
+  },
+  {
+    "name": "Kem Ripple",
+    "image": "food_9.png",
+    "price": 14000,
+    "description": "Kem mịn màng với lớp sốt trái cây ngọt ngào hòa quyện, mát lạnh đầy hấp dẫn.",
+    "category": "Tráng miệng"
+  },
+  {
+    "name": "Kem Trái Cây",
+    "image": "food_10.png",
+    "price": 22000,
+    "description": "Kem sữa kết hợp cùng hương vị trái cây tự nhiên – tươi mát, ngọt nhẹ, khó quên.",
+    "category": "Tráng miệng"
+  },
+  {
+    "name": "Kem Hũ",
+    "image": "food_11.png",
+    "price": 10000,
+    "description": "Kem được đựng trong hũ nhỏ xinh, tiện lợi mang đi và thưởng thức mọi lúc.",
+    "category": "Tráng miệng"
+  },
+  {
+    "name": "Kem Vanilla",
+    "image": "food_12.png",
+    "price": 12000,
+    "description": "Vị vanilla cổ điển, ngọt ngào và béo ngậy – món tráng miệng kinh điển cho mọi thực khách.",
+    "category": "Tráng miệng"
+  },
+  {
+    "name": "Bánh Mì Kẹp Gà",
+    "image": "food_13.png",
+    "price": 12000,
+    "description": "Bánh mì mềm kẹp thịt gà nướng thơm phức cùng rau tươi và sốt mayonnaise béo nhẹ.",
+    "category": "Bánh mì kẹp"
+  },
+  {
+    "name": "Bánh Mì Kẹp Chay",
+    "image": "food_14.png",
+    "price": 18000,
+    "description": "Phiên bản bánh mì kẹp thanh đạm, giàu chất xơ từ rau củ và đậu hũ chiên vàng.",
+    "category": "Bánh mì kẹp"
+  },
+  {
+    "name": "Bánh Mì Kẹp Nướng",
+    "image": "food_15.png",
+    "price": 16000,
+    "description": "Bánh mì nướng giòn kết hợp nhân gà, rau củ và phô mai tan chảy hấp dẫn.",
+    "category": "Bánh mì kẹp"
+  },
+  {
+    "name": "Bánh Mì Trắng",
+    "image": "food_16.png",
+    "price": 24000,
+    "description": "Món bánh mì truyền thống đơn giản nhưng thơm ngon, thích hợp cho bữa sáng nhẹ.",
+    "category": "Bánh mì kẹp"
+  },
+  {
+    "name": "Bánh Cupcake",
+    "image": "food_17.png",
+    "price": 14000,
+    "description": "Cupcake nhỏ xinh với lớp kem mềm ngọt, trang trí bắt mắt – hoàn hảo cho món tráng miệng.",
+    "category": "Bánh ngọt"
+  },
+  {
+    "name": "Bánh Chay",
+    "image": "food_18.png",
+    "price": 12000,
+    "description": "Bánh chay mềm xốp, ít ngọt, phù hợp với người ăn kiêng hoặc thực dưỡng.",
+    "category": "Bánh ngọt"
+  },
+  {
+    "name": "Bánh Bơ Đường",
+    "image": "food_19.png",
+    "price": 20000,
+    "description": "Hương vị bơ và caramel quyện hòa, mang lại cảm giác béo ngậy khó cưỡng.",
+    "category": "Bánh ngọt"
+  },
+  {
+    "name": "Bánh Cắt Lát",
+    "image": "food_20.png",
+    "price": 15000,
+    "description": "Những lát bánh mềm mịn, thơm dịu – lý tưởng cho buổi trà chiều thư giãn.",
+    "category": "Bánh ngọt"
+  },
+  {
+    "name": "Nấm Xào Bơ Tỏi",
+    "image": "food_21.png",
+    "price": 14000,
+    "description": "Nấm tươi xào cùng bơ và tỏi thơm nức, món chay hấp dẫn và bổ dưỡng.",
+    "category": "Món chay"
+  },
+  {
+    "name": "Súp Lơ Chiên",
+    "image": "food_22.png",
+    "price": 22000,
+    "description": "Súp lơ chiên vàng giòn bên ngoài, mềm ngọt bên trong, ăn kèm sốt cay nhẹ.",
+    "category": "Món chay"
+  },
+  {
+    "name": "Cơm Rau Thập Cẩm",
+    "image": "food_23.png",
+    "price": 10000,
+    "description": "Cơm chiên kết hợp nhiều loại rau củ tươi, mang lại bữa ăn cân bằng dinh dưỡng.",
+    "category": "Món chay"
+  },
+  {
+    "name": "Cơm Bí Ngòi",
+    "image": "food_24.png",
+    "price": 12000,
+    "description": "Cơm dẻo kết hợp bí ngòi xào mềm, đậm hương vị tự nhiên và lành mạnh.",
+    "category": "Món chay"
+  },
+  {
+    "name": "Mì Ý Phô Mai",
+    "image": "food_25.png",
+    "price": 12000,
+    "description": "Mì Ý trộn với sốt kem phô mai béo ngậy, thơm nức và hấp dẫn ngay từ miếng đầu tiên.",
+    "category": "Mì Ý"
+  },
+  {
+    "name": "Mì Ý Sốt Cà Chua",
+    "image": "food_26.png",
+    "price": 18000,
+    "description": "Sợi mì dai kết hợp nước sốt cà chua đậm đà, món Ý cổ điển được yêu thích nhất.",
+    "category": "Mì Ý"
+  },
+  {
+    "name": "Mì Ý Kem Sữa",
+    "image": "food_27.png",
+    "price": 16000,
+    "description": "Sốt kem béo kết hợp sợi mì mềm mịn – lựa chọn hoàn hảo cho những ai yêu vị ngậy.",
+    "category": "Mì Ý"
+  },
+  {
+    "name": "Mì Ý Gà",
+    "image": "food_28.png",
+    "price": 24000,
+    "description": "Mì Ý sốt kem gà nướng – hương vị đậm đà, no lâu và cực kỳ hấp dẫn.",
+    "category": "Mì Ý"
+  },
+  {
+    "name": "Mì Bơ",
+    "image": "food_29.png",
+    "price": 14000,
+    "description": "Sợi mì vàng óng trộn với bơ tan chảy, món ăn đơn giản mà thơm ngon.",
+    "category": "Mì"
+  },
+  {
+    "name": "Mì Rau Củ",
+    "image": "food_30.png",
+    "price": 12000,
+    "description": "Mì xào rau củ nhiều màu sắc – nhẹ nhàng, thanh mát và rất dễ ăn.",
+    "category": "Mì"
+  },
+  {
+    "name": "Mì Somen",
+    "image": "food_31.png",
+    "price": 20000,
+    "description": "Mì Nhật Somen dai nhẹ, ăn lạnh cùng nước tương hoặc sốt mè – rất hợp ngày hè.",
+    "category": "Mì"
+  },
+  {
+    "name": "Mì Xào",
+    "image": "food_32.png",
+    "price": 15000,
+    "description": "Món mì xào truyền thống, sợi mì vàng óng quyện nước sốt đậm đà khó quên.",
+    "category": "Mì"
+  }
+]

@@ -1,0 +1,42 @@
+/* Sidebar.css */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #e0e0e0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sidebar-option img {
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar-option:hover {
+  background-color: #f2f2f2;
+}
+
+.sidebar-option p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}

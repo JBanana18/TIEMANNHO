@@ -1,0 +1,215 @@
+/* Orders.css
+   Giao diện danh sách đơn hàng - tông cam/tomato, responsive
+*/
+
+/* --- Khung chính --- */
+.order {
+  padding: 40px 6%;
+  min-height: 100vh;
+  background: #fff7f5;
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  color: #333;
+}
+
+.order h3 {
+  margin: 0 0 22px 0;
+  font-size: 26px;
+  color: #d9480f; /* tomato */
+  text-align: left;
+}
+
+/* --- Wrapper danh sách --- */
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* --- Một item đơn hàng --- */
+.order-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(255, 99, 71, 0.06);
+  border: 1px solid #fff0ec;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.order-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(255, 99, 71, 0.08);
+}
+
+/* ảnh gói hàng */
+.order-item > img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex: 0 0 56px;
+  margin-top: 2px;
+}
+
+/* --- Thông tin chính của đơn --- */
+.order-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* danh sách món trong đơn */
+.order-item-food {
+  margin: 0;
+  font-weight: 600;
+  color: #444;
+  line-height: 1.45;
+}
+
+/* tiền & tổng số món */
+.order-amount {
+  margin: 0;
+  color: #d9480f;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.order-total {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* trạng thái (icon + text) */
+.order-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* icon trạng thái */
+.status-icon {
+  font-size: 16px;
+}
+
+/* màu cho từng trạng thái */
+.order-status.processing {
+  color: #ff9800; /* cam */
+}
+
+.order-status.delivery {
+  color: #0288d1; /* xanh dương */
+}
+
+.order-status.delivered {
+  color: #2e7d32; /* xanh lá */
+}
+
+.order-status.unknown {
+  color: #777;
+}
+
+/* --- Select thay đổi trạng thái (khu vực quản lý) --- */
+.order-info select {
+  margin-top: 8px;
+  width: 220px;
+  max-width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ffd9c9;
+  background: #fff;
+  color: #333;
+  outline: none;
+  transition: box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.order-info select:focus {
+  border-color: #ff7043;
+  box-shadow: 0 6px 18px rgba(255, 112, 67, 0.12);
+}
+
+/* --- Nút theo dõi (nếu có) --- */
+.track-btn {
+  background: #ff6b3d;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.18s ease;
+}
+
+.track-btn:hover {
+  transform: translateY(-2px);
+  background: #e85a2b;
+}
+
+/* --- Responsive: desktop 2 columns (nếu cần) --- */
+@media (min-width: 1100px) {
+  .order-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
+/* --- Responsive: tablet/mobile --- */
+@media (max-width: 900px) {
+  .order {
+    padding: 30px 4%;
+  }
+
+  .order-item {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 14px;
+  }
+
+  .order-item > img {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+  }
+
+  .order-info {
+    margin-top: 8px;
+  }
+
+  .order-info select {
+    width: 100%;
+  }
+
+  .track-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* --- Tinh chỉnh typography cho mobile nhỏ --- */
+@media (max-width: 420px) {
+  .order h3 {
+    font-size: 22px;
+  }
+
+  .order-item {
+    padding: 12px;
+  }
+
+  .order-item-food {
+    font-size: 14px;
+  }
+
+  .order-amount {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,108 @@
+.my-orders {
+  padding: 60px 8%;
+  min-height: 100vh;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.my-orders h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #222;
+}
+
+.my-orders .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.my-orders .empty {
+  text-align: center;
+  color: #777;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.my-orders-order {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease;
+}
+
+.my-orders-order:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.my-orders-order img {
+  width: 50px;
+  height: 50px;
+}
+
+.order-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.order-items {
+  font-weight: 500;
+  color: #444;
+}
+
+.order-amount {
+  font-size: 16px;
+  color: tomato;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.order-total {
+  color: #666;
+  margin-top: 4px;
+}
+
+.order-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.status-icon {
+  font-size: 18px;
+}
+
+.order-status.processing {
+  color: #ff9800;
+}
+
+.order-status.completed {
+  color: #4caf50;
+}
+
+.order-status.cancelled {
+  color: #f44336;
+}
+
+.track-btn {
+  background: tomato;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.track-btn:hover {
+  background: #ff6b4a;
+}

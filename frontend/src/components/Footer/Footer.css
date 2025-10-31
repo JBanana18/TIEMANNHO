@@ -1,0 +1,122 @@
+.footer {
+  background: linear-gradient(180deg, #ff7b54, #ff9472);
+  color: #fff8f0;
+  padding: 70px 10%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --- Footer chính: dàn đều 3 cột --- */
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Dàn đều 3 khối ra hết ngang */
+  align-items: flex-start;
+  flex-wrap: nowrap; /* giữ trên cùng một hàng */
+  gap: 40px;
+}
+
+/* --- 3 cột chính có tỷ lệ phù hợp --- */
+.footer-content-left {
+  flex: 1.2;
+}
+.footer-content-center {
+  flex: 1;
+  padding-left: 40px; /* đẩy nhẹ sang phải */
+}
+.footer-content-right {
+  flex: 1;
+  text-align: right; /* canh phải cho đẹp mắt */
+}
+
+/* ----- Nội dung chung ----- */
+.footer-content-left img {
+  width: 170px;
+  margin-bottom: 25px;
+}
+
+.footer-content-left p {
+  color: #fffaf2;
+  line-height: 1.7;
+  font-size: 17px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.footer-content-center h2,
+.footer-content-right h2 {
+  color: #fffdf8;
+  font-size: 20px;
+  margin-bottom: 18px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.footer-content-center ul,
+.footer-content-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content-center li,
+.footer-content-right li {
+  margin-bottom: 12px;
+  color: #fff4e1;
+  font-size: 16px;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.footer-content-center li:hover,
+.footer-content-right li:hover {
+  color: #ffe1c3;
+}
+
+/* ----- Social icons ----- */
+.footer-social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social-icons img {
+  width: 38px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.footer-social-icons img:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* ----- HR & copyright ----- */
+.footer hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.35);
+  margin: 50px 0 25px;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #fff5eb;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+
+/* ----- Responsive (mobile) ----- */
+@media (max-width: 900px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-content-right {
+    text-align: center;
+    padding-left: 0;
+  }
+}
